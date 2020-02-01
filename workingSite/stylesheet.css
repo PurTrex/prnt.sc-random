@@ -1,0 +1,46 @@
+body {
+
+    background-color: lightblue;
+    
+}
+
+#button {
+
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 36px;
+    transition: 0.4s;
+    width: 400px;
+    height: 100px;
+    font-family: 'Arial';
+    margin-left: 40%;
+
+
+    
+}
+
+#button:hover {
+
+    background-color: white; 
+    color: #4CAF50;
+
+}
+
+#title {
+
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 36px;
+    width: 400px;
+    height: 100px;
+    font-family: 'Arial';  
+    margin-left: 38%; 
+}
