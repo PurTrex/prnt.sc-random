@@ -3,22 +3,18 @@ function newLink(){
     function randLetters(){
 
         var result           = '';
-        var characters       = 'abcdefghijklmnopqrstuvwxyz';
+        var characters       = 'abcdefghijklmnopqrstuvwxyz0123456789';
         var charactersLength = characters.length;
-        for ( var i = 0; i < 2; i++ ) {
-        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        console.log(charactersLength)
+        for ( var i = 0; i < 6; i++ ) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
         }
         return result
+        
 
     }
 
-    function randNum(){
-
-        return Math.floor(Math.random() * 9999);
-
-    }
-
-    link = "https://prnt.sc/" + randLetters() + randNum();
+    link = "https://prnt.sc/" + randLetters();
 
     return link;
 
